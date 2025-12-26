@@ -1,9 +1,9 @@
 body {
     margin: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .main-image {
@@ -58,18 +58,38 @@ body {
 }
 
 .description-line {
+    margin: 2px;
+}
+
+
+
+.hrt4 {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.third-part {
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 464px;
+    height: 275px;
+    border: 2px solid blue;
+    background-color: skyblue;
+    border-bottom: 10px solid teal;
+    border-radius: 7px;
     
 }
 
-.v3 {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between;
+#shinchan-image {
+   width: 207px;
+    height: 237px;
+    margin: 15px 10px;
+    border-radius: 9px;
 }
 
-.hrt4 {
-    display: inline-flex;
-    justify-content:space-around;
+.color {
+    color: blue;
+    text-shadow: 1px 0px 1px black;
 }
