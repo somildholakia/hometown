@@ -1,0 +1,75 @@
+body {
+    margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-image {
+    width: 1495px;
+    height: 370px;
+    background-image: url(../LocalRepo/images/cst\ mumbai\ image.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.second-part {
+    width: 1495px;
+    height: 370px;
+    background-color: beige;
+}
+
+.v1 {
+    margin-top: 180px;
+    margin-bottom: 0;
+    display: inline-block;
+    color: white;
+    background-color: teal;
+    font-size: 20px;
+    padding: 6px 6px;
+    border-radius: 7px;
+}
+
+.v2 {
+    display: inline-block;
+    color: white;
+    background-color: blue;
+    margin-top: 6;
+    font-size: 20px;
+    padding: 6px 6px;
+    border-radius: 7px;
+}
+
+.activity-line {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.places-image {
+    width: 185px;
+    height: 145px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 25px;
+    margin-left: 20px;
+}
+
+.description-line {
+    display: flex;
+    
+}
+
+.v3 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.hrt4 {
+    display: inline-flex;
+    justify-content:space-around;
+}
